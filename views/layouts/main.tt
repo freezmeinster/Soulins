@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta name="author" content="Luka Cvrk (www.solucija.com)" />
+<meta name="developer" content="School Suck Community"/>
+<link rel="stylesheet" href="/css/main.css" type="text/css" />
+<title>Soul Installer</title>
+</head>
+<body>
+<div id="wrap">
+<div id="logo">
+<h1><a href="#">Soul Installer</a></h1>
+<p id="slogan">Bring Soul To Your System</p>
+</div>
+
+<div id="explore">
+<a href="#" id="explore-link">Explore</a>
+</div>
+
+<div id="menu">
+<div id="menu-left"></div>
+<ul>
+<li><a class="<% home %>" href="/"><span>Overview</span></a></li>
+<li><a class="<% setting %>" href="/setting"><span>Setting</span></a></li>
+<li><a class="<% client %>" href="/client"><span>Client</span></a></li>
+<li><a class="<% about %>" href="#"><span>About Us</span></a></li>
+<li><a class="<% contact %>" href="#"><span>Contact Us</span></a></li>
+</ul>
+<div id="menu-right"></div>
+</div>
+<% content %>
+<div id="footer">
+<p id="links">
+<a href="#">Terms and Conditions</a>
+<a href="#">Privacy</a>
+<a href="#">About Us</a>
+</p>
+<p>Copyright &copy; Enthusiastica &middot; Design: Luka Cvrk, <a href="http://www.solucija.com" title="Free CSS Templates">Solucija</a></p>
+</div>
+</div>	
+</body>
+</html>
