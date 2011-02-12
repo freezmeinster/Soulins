@@ -4,15 +4,15 @@ use Dancer ':syntax';
 our $VERSION = '0.1';
 
 get '/' => sub {
-    template 'index', { home => "current" };
+    template 'index', { 
+	home => "current" 
+    };
 };
 
 get '/setting/?' => sub {
-    my %data = {
-	    setting => "current",
-	    name => "bram"
-	};
-    template 'setting', %data;
+    template 'setting', {
+	setting => 'current'
+    };
 };
 
 before_template sub {
