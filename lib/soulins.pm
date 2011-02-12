@@ -1,23 +1,31 @@
 package soulins;
 use Dancer ':syntax';
-
 our $VERSION = '0.1';
 
+
 get '/' => sub {
+    session nama => 'bram';
     template 'index', { 
-	home => "current" 
+	home => 'current',
+	nama => session('nama')
     };
 };
+
 
 get '/setting/?' => sub {
+    
     template 'setting', {
-	setting => 'current'
+	setting => 'current',
+	nama => session('nama')
     };
 };
 
-before_template sub {
-    my $tokens = shift;
-    $tokens->{uri_base} = request->base->path;
+get '/client/?' => sub {
+
+    template 'setting', {
+	client => 'current',
+    };
+    
 };
 
 true;
