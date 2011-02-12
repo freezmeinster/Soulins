@@ -7,8 +7,8 @@
 	=====================================
 */
 
-*{margin:0;padding:0;}:focus,:active {outline:0}ul,ol{list-style:none}h1,h2,h3,h4,h5,h6,pre,code {font-size:1em;}a img{border:0} 
-body { font: .7em "Trebuchet MS", Tahoma, Arial, Sans-Serif; background: #eee url(../images/bg.gif) repeat-x; color: #777; }
+*{margin:0;padding:0;}:focus,:active {outline:0}h1,h2,h3,h4,h5,h6,pre,code {font-size:1em;}a img{border:0} 
+body { font: .8em "Trebuchet MS", Tahoma, Arial, Sans-Serif; background: #eee url(../images/bg.gif) repeat-x; color: #777; }
 a { text-decoration: none; color: #6796CE; }
 	a:hover { color: #45134A; }
 p  { margin: 0 0 15px; line-height: 1.64em; }
@@ -18,7 +18,7 @@ p  { margin: 0 0 15px; line-height: 1.64em; }
 
 #logo { float: left; margin: 35px 0 0 20px; height: 89px; }
 	#logo a:hover { border-bottom: 1px solid #222; }
-	#logo p { padding: 2px 0 0 4px; font-size: .9em; color: #555; }
+	#logo p { padding: 2px 0 0 4px; font-size: 12px; color: #C4C4C2; }
 	#logo h1 { font-size: 2.6em; margin: 0; text-shadow: 1px 1px 1px #000; }
 		#logo h1 a { color: #fff; }
 
@@ -39,7 +39,9 @@ p  { margin: 0 0 15px; line-height: 1.64em; }
 			#menu li a.current span { background: url(../images/tabright.gif) no-repeat right top; }
 		
 	#content-top { clear: both; height: 26px; background: url(../images/content-top.gif) no-repeat; position: relative; margin: 0 !important; margin: -14px 0 0; }
-	#content-middle { padding: 0 25px 25px; background: url(../images/content-middle.gif) repeat-y; }
+	#content-middle { padding: 20px 25px 25px 20% ; background: url(../images/content-middle.gif) repeat-y; }
+	#content-middle li { padding-bottom: 10px; }
+	#content-middle h1 { font-size: 24px; text-transform: lowercase; font-size: 23px; font-style: italic; color: #000000; }
 	#content-bottom { clear: both; padding: 6px 0 7px; background: url(../images/content-bottom.gif) no-repeat left bottom; }
 	#pitch { text-shadow: 1px 1px 1px #3F6AA2; background: url(../images/pitch.jpg) no-repeat; height: 159px; padding: 50px 40px 0 30px; position: relative; margin: 0 -7px 30px; font-size: 1.3em; font-style: italic; color: #fff;  }
 		#pitch h1 { float: left; line-height: 1.3em; font-style: normal; font-size: 1.7em; width: 260px; padding: 0 40px 0 0; height: 150px; font-weight: normal; text-transform: uppercase; }

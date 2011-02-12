@@ -19,3 +19,4 @@
 [3746] debug @0.000030> Dancer::Logger in /usr/lib/perl5/site_perl/5.10.1/Dancer/Session/Storable.pm l. 32
 [3762] debug @0.000022> Dancer::Logger in /usr/lib/perl5/site_perl/5.10.1/Dancer/Session/Storable.pm l. 32
 [3829]  core @0.000028> session_dir : /home/belajar/soulins/sessions in /usr/lib/perl5/site_perl/5.10.1/Dancer/Session/YAML.pm l. 32
+[4197]  core @0.000021> session_dir : /home/belajar/soulins/sessions in /usr/lib/perl5/site_perl/5.10.1/Dancer/Session/YAML.pm l. 32

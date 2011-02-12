@@ -21,19 +21,18 @@
 <li><a class="<% home %>" href="/"><span>Overview</span></a></li>
 <li><a class="<% setting %>" href="/setting"><span>Setting</span></a></li>
 <li><a class="<% client %>" href="/client"><span>Client</span></a></li>
-<li><a class="<% about %>" href="#"><span>About Us</span></a></li>
-<li><a class="<% contact %>" href="#"><span>Contact Us</span></a></li>
+<li><a class="<% log %>" href="/log"><span>Log</span></a></li>
+<li><a class="<% about %>" href="/about"><span>About Us</span></a></li>
 </ul>
 <div id="menu-right"></div>
 </div>
 <% content %>
 <div id="footer">
 <p id="links">
-<a href="#">Terms and Conditions</a>
-<a href="#">Privacy</a>
-<a href="#">About Us</a>
+<a href="/licenses">License</a>
+<a href="/about">About Us</a>
 </p>
-<p>Copyright &copy; Enthusiastica &middot; Design: Luka Cvrk, <a href="http://www.solucija.com" title="Free CSS Templates">Solucija</a></p>
+<p>Copyright &copy;  &middot; Design: Luka Cvrk, <a href="http://www.solucija.com" title="Free CSS Templates">Solucija</a></p>
 </div>
 </div>	
 </body>

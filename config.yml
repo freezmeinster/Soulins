@@ -28,4 +28,4 @@ template: "simple"
 #     end_tag:   '%]'
 
 
-session: "YAML"
+
