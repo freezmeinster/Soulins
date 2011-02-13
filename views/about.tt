@@ -1,0 +1,23 @@
+<div id="content-top"></div>
+<div id="content-middle">
+    <div>
+	<h1>Tentang Soul Installer</h1>
+	<p>
+	    Soul installer adalah sebuah sistem intallasi otomatis , digunakan untuk memanajemen installasi sebuah laboratorium komputer 
+	    dengan jumlah komputer antara 25-50 komputer. Sebelum sistem soul installer dapat berjalan dengan baik, anda harus menyiapkan:
+	 </p>
+		<ul>
+		    <li>Partition table yang sesuai dengan komputer target</li>
+		    <li>Image harddisk untuk di install ke komputer target</li>
+		    <li>Setting Bios Komputer target agar dapat "Wakeup On LAN"</li>
+		    <li>Setting Komputer target untuk boot lewat LAN</li>
+		</ul>
+	<p>
+	    Soul Installer memanfaatkan kemampuan wakeup on LAN yang dimiliki oleh Bios komputer target. Jadi anda tidak perlu repot menyalakan
+	    semua komputer target secara manual. Soul installer akan mengirimkan "Magic pacakge" untuk menghidupkan komputer target. Apabila 
+	    komputer target tidak memiliki fitur wake on lan, Anda masih dapat menggunakan soul installer , namun kehilangan fungsi "autostart target" nya
+	</p>
+    </div>
+    <div class="clear"></div>
+</div>	
+<div id="content-bottom"></div>

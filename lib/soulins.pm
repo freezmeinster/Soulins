@@ -26,6 +26,12 @@ get '/client/?' => sub {
     
 };
 
+get '/about/?' => sub {
+    template 'about',{
+	about => 'current',
+    };
+}; 
+
 get '/licenses/?' => sub {
 
     template 'licenses', {

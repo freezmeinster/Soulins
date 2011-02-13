@@ -41,7 +41,8 @@ p  { margin: 0 0 15px; line-height: 1.64em; }
 	#content-top { clear: both; height: 26px; background: url(../images/content-top.gif) no-repeat; position: relative; margin: 0 !important; margin: -14px 0 0; }
 	#content-middle { padding: 20px 25px 25px 20% ; background: url(../images/content-middle.gif) repeat-y; }
 	#content-middle li { padding-bottom: 10px; }
-	#content-middle h1 { font-size: 24px; text-transform: lowercase; font-size: 23px; font-style: italic; color: #000000; }
+	#content-middle ul { padding-left: 40px; } 
+	#content-middle h1 { padding: 0 0 10px 0;font-size: 24px; font-size: 23px; font-style: italic; color: #000000; }
 	#content-bottom { clear: both; padding: 6px 0 7px; background: url(../images/content-bottom.gif) no-repeat left bottom; }
 	#pitch { text-shadow: 1px 1px 1px #3F6AA2; background: url(../images/pitch.jpg) no-repeat; height: 159px; padding: 50px 40px 0 30px; position: relative; margin: 0 -7px 30px; font-size: 1.3em; font-style: italic; color: #fff;  }
 		#pitch h1 { float: left; line-height: 1.3em; font-style: normal; font-size: 1.7em; width: 260px; padding: 0 40px 0 0; height: 150px; font-weight: normal; text-transform: uppercase; }
