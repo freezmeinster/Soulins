@@ -20,13 +20,25 @@ get '/setting/?' => sub {
 
 get '/client/?' => sub {
 
-    template 'setting', {
+    template 'client', {
 	client => 'current',
     };
     
 };
 
+get '/log/?' => sub {
+    template 'about',{
+	log => 'current',
+    };
+}; 
+
 get '/about/?' => sub {
+    template 'about',{
+	about => 'current',
+    };
+}; 
+
+get '/schoolsucks/?' => sub {
     template 'about',{
 	about => 'current',
     };

@@ -1,0 +1,12 @@
+<div id="content-top"></div>
+<div id="content-middle">
+    <div>
+	<form action="" method="POST">
+	    <table cellpadding="10">
+		<tr><td>Alamat MAC</td><td>:</td><td><input type="text" name="mac"></td></tr>
+	    </table>
+	</form>
+    </div>
+    <div class="clear"></div>
+</div>	
+<div id="content-bottom"></div>
