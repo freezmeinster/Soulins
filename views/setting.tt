@@ -2,7 +2,13 @@
 <div id="content-middle">
 		
     <div>
-	<% nama %>
+	<button id="buat">Buat Skema PC</button>
+    </div><br>
+    
+    <div id="form_skema">
+	<table>
+	    <tr><td>Nama Skema</td><td>:</td><td><input type="text" name="nama_skema"></td></tr>
+	</table>
     </div>
 		
     <div class="clear"></div>

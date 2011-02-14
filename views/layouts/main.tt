@@ -6,6 +6,7 @@
 <meta name="developer" content="School Suck Community"/>
 <script src="/javascripts/mootools-core.js" type="text/javascripts"></script>
 <script src="/javascripts/mootools-more.js" type="text/javascripts"></script>
+<script src="/javascripts/main.js" type="text/javascripts"></script>
 <link rel="stylesheet" href="/css/main.css" type="text/css" />
 <link rel="shortcut icon" href="/favicon.png" />
 <title>Soul Installer</title>
@@ -14,7 +15,7 @@
 <div id="wrap">
 <div id="logo">
 <h1><a href="#">Soul Installer</a></h1>
-<p id="slogan">Bring Soul To Your System</p>
+<p id="slogan">Bring a Soul To Your System</p>
 </div>
 
 

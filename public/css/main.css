@@ -39,7 +39,7 @@ p  { margin: 0 0 15px; line-height: 1.64em; }
 			#menu li a.current span { background: url(../images/tabright.gif) no-repeat right top; }
 		
 	#content-top { clear: both; height: 26px; background: url(../images/content-top.gif) no-repeat; position: relative; margin: 0 !important; margin: -14px 0 0; }
-	#content-middle { padding: 20px 25px 25px 20% ; background: url(../images/content-middle.gif) repeat-y; }
+	#content-middle { padding: 20px 25px 25px 5% ; background: url(../images/content-middle.gif) repeat-y; }
 	#content-middle li { padding-bottom: 10px; }
 	#content-middle ul { padding-left: 40px; } 
 	#content-middle h1 { padding: 0 0 10px 0;font-size: 24px; font-size: 23px; font-style: italic; color: #000000; }

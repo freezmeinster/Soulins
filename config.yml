@@ -20,6 +20,8 @@ charset: "UTF-8"
 
 template: "simple"
 
+port: "4000"
+
 # template: "template_toolkit"
 # engines:
 #   template_toolkit:
